@@ -1,0 +1,43 @@
+/* Styling for the Air Hockey game */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the full viewport height is used */
+    margin: 0; /* Remove default body margin */
+  }
+  
+  /* Styling for the game container (no changes) */
+  .game-container {
+    width: 600px;
+    height: 400px;
+    border: 2px solid #000;
+    position: relative;
+  }
+  
+  .paddle {
+    width: 10px;
+    height: 80px;
+    background-color: #000;
+    position: absolute;
+  }
+  
+  #player-paddle {
+    left: 20px;
+  }
+  
+  #computer-paddle {
+    right: 20px;
+  }
+  
+  /* Styling for the circular ball */
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%; /* Use border-radius to create a circular shape */
+    position: absolute;
+  }
+  
